@@ -1,0 +1,51 @@
+.add-employee-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.add-employee-form .MuiTextField-root,
+.add-employee-form .MuiFormControl-root,
+.add-employee-form .MuiButton-root {
+  width: 100%;
+}
+
+.add-employee-form .MuiFormControl-root {
+  margin-top: 16px;
+}
+
+.add-employee-form .MuiButton-root {
+  margin-top: 16px;
+}
+
+.add-employee-form .MuiFormControlLabel-root {
+  color: gray;
+}
+
+.add-employee-form .MuiTextField-root {
+  margin-top: 16px;
+}
+
+.add-employee-form .MuiTextareaAutosize-root {
+  width: 100%;
+  margin-top: 16px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 16px;
+}
+
+.add-employee-form .MuiSelect-root {
+  margin-top: 16px;
+}
+
+.add-employee-form .MuiDatePicker-root {
+  margin-top: 16px;
+}

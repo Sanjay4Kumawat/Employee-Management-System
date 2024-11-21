@@ -1,0 +1,31 @@
+### Get all users
+GET http://localhost:3000/api/employees/search?fname=yash&deptid=1
+
+### Get single user by ID
+GET http://localhost:3000/users/1
+
+### Create new user
+POST http://localhost:3000/api/employees/add
+Content-Type: application/json
+
+{
+    "fname": "John",
+    "lname": "Doe",
+    "email": "john.doe@gmail.com",
+    "phoneNumber": "1234567890",
+    "address": "123 Main St, Jaipur",
+    "gender": "male",
+    "dob": "1990-01-01",
+    "salary": 50000,
+    "deptId" : 1
+}
+
+###
+
+PUT http://localhost:3000/api/employees/update/2
+Content-Type: application/json
+
+{
+    "phoneNumber": "999999994",
+    "address": "Malviya Nagar, Jaipur"
+}
