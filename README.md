@@ -74,6 +74,7 @@ DB_PORT=your_database_port
 
 
 **Running the Project**
+go to the sanju project folder the open folder according to given steps
 
 **Start the Backend:**
 cd employee-management-be
